@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilherme\\Documents\\Projetos\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj": {}
+    "C:\\Users\\Guilherme\\Documents\\Repositorios\\AplicacaoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilherme\\Documents\\Projetos\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj": {
+    "C:\\Users\\Guilherme\\Documents\\Repositorios\\AplicacaoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\Projetos\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\Repositorios\\AplicacaoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj",
         "projectName": "ProjetoMVC_Treino",
-        "projectPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj",
+        "projectPath": "C:\\Users\\Guilherme\\Documents\\Repositorios\\AplicacaoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino.csproj",
         "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilherme\\Documents\\Projetos\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\obj\\",
+        "outputPath": "C:\\Users\\Guilherme\\Documents\\Repositorios\\AplicacaoMVC_Treino\\ProjetoMVC_Treino\\ProjetoMVC_Treino\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
